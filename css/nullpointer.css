@@ -1,0 +1,27 @@
+.logo-horizonal {
+    width: 119px;
+    height: 45px;
+}
+
+.logo-frontdesk {
+    transform: translateX(295px) translateY(215px) rotate(352deg) skew(337deg);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 111px;
+    height: 42px;
+}
+
+.logo-wall {
+    transform: translateX(60px) translateY(120px) rotate(359deg) skew(2deg);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 70px;
+    height: 70px;
+}
+
+.img-office {
+    width: 550px;
+    height: 324px;
+}
