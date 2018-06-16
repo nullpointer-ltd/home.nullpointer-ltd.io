@@ -25,3 +25,17 @@
     width: 550px;
     height: 324px;
 }
+
+.fa-middle {
+    font-size: 50px !important;
+    width: 50px !important;
+    height: 50px !important;
+}
+
+.morse-code-gradient {
+    background: -moz-linear-gradient(0deg, #0f0f0f 0%, #ffffff 100%);
+    background: -webkit-linear-gradient(0deg, #0f0f0f 0%, #ffffff 100%);
+    background: -ms-linear-gradient(0deg, #0f0f0f 0%, #ffffff 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

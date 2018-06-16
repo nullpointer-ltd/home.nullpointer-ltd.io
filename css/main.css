@@ -2151,7 +2151,7 @@ nav a:hover {
 }
 
 .banner-content h1 {
-  font-size: 58px;
+  font-size: 53px;
   font-weight: 700;
   line-height: 1.15em;
   margin-bottom: 20px;
@@ -2159,7 +2159,7 @@ nav a:hover {
 
 @media (max-width: 991px) {
   .banner-content h1 {
-    font-size: 36px;
+    font-size: 31px;
   }
 }
 
@@ -2171,13 +2171,13 @@ nav a:hover {
 
 @media (max-width: 1199px) {
   .banner-content h1 {
-    font-size: 45px;
+    font-size: 40px;
   }
 }
 
 @media (max-width: 414px) {
   .banner-content h1 {
-    font-size: 40px;
+    font-size: 35px;
   }
 }
 
