@@ -23,7 +23,21 @@
 
 .img-office {
     width: 550px;
-    height: 324px;
+    height: 308px;
+}
+
+@media (max-width: 991px) {
+    .img-office {
+        width: 450px;
+        height: 252px;
+    }
+}
+
+@media (max-width: 768px) {
+    .img-office {
+        width: 350px;
+        height: 196px;
+    }    
 }
 
 .fa-middle {

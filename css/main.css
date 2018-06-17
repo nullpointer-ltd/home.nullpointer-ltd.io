@@ -2139,13 +2139,19 @@ nav a:hover {
 
 @media (max-width: 768px) {
   .banner-area .fullscreen {
-    height: 450px !important;
+    height: 600px !important;
+  }
+}
+
+@media (max-width: 991px) {
+  .banner-area .fullscreen {
+    height: 600px !important;
   }
 }
 
 @media (max-width: 991px) {
   .banner-content {
-    margin-top: 100px;
+    margin-top: 30px;
     text-align: center;
   }
 }
