@@ -1909,6 +1909,8 @@ nav {
     padding: 20px 0;
     z-index: 5;
     background: #fff;
+    width: 80px;
+    text-align: center;
   }
   nav a {
     color: #2482ff !important;
