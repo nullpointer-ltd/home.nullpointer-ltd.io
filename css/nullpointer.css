@@ -33,9 +33,25 @@
 }
 
 .morse-code-gradient {
+    font-size: 24px;
     background: -moz-linear-gradient(0deg, #0f0f0f 0%, #ffffff 100%);
     background: -webkit-linear-gradient(0deg, #0f0f0f 0%, #ffffff 100%);
     background: -ms-linear-gradient(0deg, #0f0f0f 0%, #ffffff 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.product-text {
+    text-align: center;
+}
+
+.product-logo {
+    padding: 20px;
+    width: 120px;
+    height: 120px;
+}
+
+.product-qrcode {
+    width: 160px;
+    height: 160px;
 }
