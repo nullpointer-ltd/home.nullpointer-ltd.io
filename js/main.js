@@ -7,14 +7,12 @@ $(document).ready(function(){
 	header_height 		 = $(".default-header").height(),
 	header_height_static = $(".site-header.static").outerHeight(),
 	fitscreen 			 = window_height - header_height;
-
-  $("[data-localize]").localize("main", {language: "zh", pathPrefix: "i18n"});
-
+  
 	$(".fullscreen").css("height", window_height)
 	$(".fitscreen").css("height", fitscreen);
 
   //-------- Active Sticky Js ----------//
-     $(".default-header").sticky({topSpacing:0});
+  $(".default-header").sticky({topSpacing:0});
 
   
   //------- Active Nice Select --------//
@@ -78,4 +76,9 @@ $(document).ready(function(){
         time: 1000
     });
 
+    // Language select
+    $('.language-select').change(function() {
+      let lang = $('.language-select').val();
+      $("[data-localize]").localize("main", { language: lang, pathPrefix: "i18n" });
+    })
  });

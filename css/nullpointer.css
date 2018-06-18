@@ -21,6 +21,11 @@
     height: 70px;
 }
 
+.language-select {
+    margin: 0px 10px;
+    background-color: #222222;
+}
+
 .img-office {
     width: 550px;
     height: 308px;
