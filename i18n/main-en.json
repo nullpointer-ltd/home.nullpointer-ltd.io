@@ -1,7 +1,26 @@
 {
-    "home": "Home",
-    "service": "Service",
-    "products": "Products",
-    "company": "NullPointer",
-    "address": "SeaShell·No.8 of HaoJiang Road·HengQin·ZhuHai"
+    "menu": {
+        "home": "Home",
+        "service": "Service",
+        "products": "Products",
+        "more": "More"
+    },
+    "company": {
+        "short": "NullPointer",
+        "full": "NullPointer CO., LTD",
+        "address": "Sea of Dreams · No.8 of HaoJiang Road · HengQin · ZhuHai"
+    },
+    "service": {
+        "android": "Android",
+        "wechat": "Wechat",
+        "frontend": "Frontend",
+        "backend": "Backend"
+    },
+    "product": {
+        "xiaoniudushu": "XiaoNiuDuShu",
+        "brickout": "Brickout Game",
+        "doorguard": "Door Guard",
+        "security": "Security Master"
+    },
+    "contact": "Contact Us"
 }
