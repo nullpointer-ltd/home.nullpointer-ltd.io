@@ -8,7 +8,7 @@ $(document).ready(function(){
 	header_height_static = $(".site-header.static").outerHeight(),
 	fitscreen 			 = window_height - header_height;
 
-  $("[data-localize]").localize("main", {language: "en", pathPrefix: "i18n"});
+  $("[data-localize]").localize("main", {language: "zh", pathPrefix: "i18n"});
 
 	$(".fullscreen").css("height", window_height)
 	$(".fitscreen").css("height", fitscreen);

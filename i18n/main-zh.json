@@ -1,6 +1,35 @@
 {
-    "home": "首页",
-    "service": "服务",
-    "products": "产品",
-    "company": "空指针科技"
+    "menu": {
+        "home": "首页",
+        "service": "服务",
+        "products": "产品",
+        "more": "了解更多"
+    },
+    "company": {
+        "short": "空指针科技",
+        "full": "空指针科技有限公司",
+        "address": "珠海市·横琴新区·濠江路8号·琴海湾"
+    },
+    "service": {
+        "android": "安卓全栈",
+        "android_detail": "APP开发、框架调优、固件定制。<br>浸渍Android系统开发十年，丰富的互联网以及设备厂商工作经验。",
+        "wechat": "微信周边",
+        "wechat_detail": "微信公众号、小程序、小游戏。<br>为合作伙伴构建完整的微信生态业务，提供微信运营解决方案。",
+        "frontend": "前端开发",
+        "frontend_detail": "痴迷于各类前端技术，满载的技能包。<br>React, Angular, Weex, Vue, Node, CSS, HTML5 ...",
+        "backend": "后端开发",
+        "backend_detail": "业务梳理、数据分析、性能优化、部署运维。<br>专业团队筑造优秀品质，为合作伙伴保驾护航。"
+    },
+    "product": {
+        "xiaoniudushu": "小牛读书",
+        "xiaoniudushu_detail": "微信公众号：阅享青春·伴你成长",
+        "brickout": "消除砖块",
+        "brickout_detail": "微信小游戏：休闲娱乐·组队拿奖",
+        "doorguard": "门禁管理系统",
+        "doorguard_detail": "桌面/移动应用：小区门禁·综合管理",
+        "security": "手机安全监控",
+        "security_detail": "Android APP：状态上报·远程监控"
+
+    },
+    "contact": "联系我们"
 }
