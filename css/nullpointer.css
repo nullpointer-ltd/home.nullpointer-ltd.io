@@ -24,7 +24,6 @@
 .img-office {
     width: 550px;
     height: 308px;
-    text-align: center;
 }
 
 @media (max-width: 991px) {
@@ -36,8 +35,8 @@
 
 @media (max-width: 768px) {
     .img-office {
-        width: 320px;
-        height: 179px;
+        width: 300px;
+        height: 168px;
     }    
 }
 
