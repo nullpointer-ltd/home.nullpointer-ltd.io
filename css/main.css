@@ -2083,6 +2083,14 @@ nav a:hover {
   transition: all 0.3s ease 0s;
 }
 
+@media (max-width: 767px) {
+  .primary-btn2 {
+    line-height: 32px;
+    padding-left: 25px;
+    padding-right: 48px;
+  }
+}
+
 .primary-btn2:after {
   position: absolute;
   content: "";
@@ -2141,13 +2149,13 @@ nav a:hover {
 
 @media (max-width: 768px) {
   .banner-area .fullscreen {
-    height: 600px !important;
+    height: 450px !important;
   }
 }
 
-@media (max-width: 991px) {
+@media (max-width: 991px) and (min-width: 768px) {
   .banner-area .fullscreen {
-    height: 600px !important;
+    height: 550px !important;
   }
 }
 
