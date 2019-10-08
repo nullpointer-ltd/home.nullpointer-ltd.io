@@ -1,1 +1,743 @@
-<!DOCTYPE html><html lang=en><head><meta charset=utf-8><meta http-equiv=X-UA-Compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><link rel=icon href=./logo.png><title>珠海市空指针科技有限公司</title><link href=/css/app.a906a76a.css rel=preload as=style><link href=/css/chunk-vendors.e6283750.css rel=preload as=style><link href=/js/app.d2d520b2.js rel=preload as=script><link href=/js/chunk-vendors.c1cf5d0d.js rel=preload as=script><link href=/css/chunk-vendors.e6283750.css rel=stylesheet><link href=/css/app.a906a76a.css rel=stylesheet></head><body><noscript><strong>We're sorry but nullpointzero doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id=app></div><script src=/js/chunk-vendors.c1cf5d0d.js></script><script src=/js/app.d2d520b2.js></script></body></html>
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
+      name="viewport"
+    />
+    <title>主页-空指针科技</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon-32x32.png"
+    />
+    <!----------------Global css------------------->
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="vendors/revolution-slider/css/layers.css" />
+    <link
+      rel="stylesheet"
+      href="vendors/revolution-slider/css/navigation.css"
+    />
+    <link rel="stylesheet" href="vendors/revolution-slider/css/settings.css" />
+    <link rel="stylesheet" href="vendors/imagehover/css/imagehover.min.css" />
+    <link rel="stylesheet" href="vendors/animate/animate.min.css" />
+    <link rel="stylesheet" href="vendors/iCheck/css/all.css" />
+    <link rel="stylesheet" href="vendors/sweetalert2/css/sweetalert2.min.css" />
+    <!----------------custo css----------------->
+    <link rel="stylesheet" href="css/custom.css" />
+  </head>
+  <body>
+    <!-------------------Preloader---------------->
+    <!-- 加载图标 -->
+    <div
+      class="preloader"
+      style="position:fixed;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;
+    z-index:100000;
+    backface-visibility: hidden;
+    background: #ffffff;"
+    >
+      <div
+        style=" width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    background-position: center;
+    margin:-25px 0 0 -25px;"
+      >
+        <img src="images/loader.gif" alt="loading..." />
+      </div>
+    </div>
+    <!----------------Preloader end----------------->
+    <!-------------Header--------->
+    <header>
+      <div class="container">
+        <nav class="navbar navbar-default">
+          <div class="navbar-header">
+            <button
+              class="navbar-toggle"
+              type="button"
+              data-toggle="collapse"
+              data-target="#myMegamenu"
+            >
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="index.html">
+              <img
+                src="images/3.png"
+                class="img-responsive"
+                alt="company-logo"
+              />
+            </a>
+          </div>
+          <div class="collapse navbar-collapse navbar-right" id="myMegamenu">
+            <ul class="nav navbar-nav">
+              <li class="list2">
+                <a href="index.html" class="hvr-underline-from-center">首页</a>
+              </li>
+              <li class="list2">
+                <a href="services.html" class="hvr-underline-from-center"
+                  >服务</a
+                >
+              </li>
+              <li class="list2">
+                <a href="products.html" class="hvr-underline-from-center"
+                  >产品</a
+                >
+              </li>
+              <li class="list2">
+                <a href="careers.html" class="hvr-underline-from-center"
+                  >人才招聘</a
+                >
+              </li>
+              <li class="list2">
+                <a href="about_us.html" class="hvr-underline-from-center"
+                  >关于我们</a
+                >
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-------------------------slider----------------------->
+    <!-- 轮播图 完成 -->
+    <div
+      class="tp-banner-container rev_slider_wrapper fullwidthbanner-container"
+      data-alias="news-hero72"
+    >
+      <div class="home_slider">
+        <ul>
+          <li
+            data-index="rs-10"
+            data-transition="fade"
+            data-slotamount="7"
+            class="bg-light"
+            data-easein="Power4.easeInOut"
+            data-delay="5000"
+            data-easeout="Power4.easeInOut"
+            data-masterspeed="2000"
+            data-rotate="0"
+            data-saveperformance="off"
+            data-title="Love it?"
+            data-description=""
+          >
+            <img
+              src="images/new_slider1.jpg"
+              alt="systemimg"
+              data-kenburns="off"
+              data-bgposition="center center"
+              data-duration="10000"
+              data-ease="Linear.easeNone"
+              data-scalestart="100"
+              data-scaleend="120"
+              data-rotatestart="0"
+              data-rotateend="0"
+              data-offsetstart="0 -500"
+              data-bgfit="cover"
+              data-offsetend="0 500"
+              data-bgparallax="10"
+              class="rev-slidebg"
+              data-no-retina
+            />
+            <div
+              class="tp-caption  sfb tp-resizeme"
+              data-x="center"
+              data-y="120"
+              data-speed="700"
+              data-start="1000"
+              data-easing="Power0.easeInOut"
+              data-splitin="words"
+              data-splitout="none"
+              data-elementdelay="0.1"
+              data-endelementdelay="0.1"
+              style="z-index: 5; max-width: inherit; max-height: inherit; white-space: nowrap;color: #fff;font-size:60px;font-family: lato"
+            >
+              欢迎来到
+            </div>
+            <div
+              class="tp-caption sft tp-resizeme"
+              data-x="center"
+              data-y="200"
+              data-speed="700"
+              data-start="1000"
+              data-easing="Power0.easeInOut"
+              data-splitin="words"
+              data-splitout="none"
+              data-elementdelay="0.1"
+              data-endelementdelay="0.1"
+              style="z-index: 5; max-width: inherit; max-height: inherit; white-space: nowrap;color: #fff;font-size:70px;font-family: lato"
+            >
+              珠海市空指针科技
+            </div>
+
+            <div
+              class="hidden-xs tp-caption  sfl tp-resizeme"
+              data-x="430"
+              data-y="340"
+              data-speed="1000"
+              data-start="2000"
+              data-easing="Power3.easeInOut"
+              data-splitout="none"
+              data-elementdelay="0.1"
+              data-endelementdelay="0.1"
+              style="z-index: 5;"
+            >
+              <a
+                href="about_us.html"
+                class="slider_btn hvr-shutter-out-horizontal"
+                >关于我们</a
+              >
+            </div>
+            <div
+              class="hidden-xs tp-caption  sfr tp-resizeme"
+              data-x="600"
+              data-y="340"
+              data-speed="1000"
+              data-start="2000"
+              data-easing="Power3.easeInOut"
+              data-splitout="none"
+              data-elementdelay="0.1"
+              data-endelementdelay="0.1"
+              style="z-index: 5"
+            >
+              <a href="about_us.html" class="slider_btn">联系我们</a>
+            </div>
+            <div
+              class="visible-xs tp-caption  sfl tp-resizeme"
+              data-x="350"
+              data-y="340"
+              data-speed="1000"
+              data-start="2000"
+              data-easing="Power3.easeInOut"
+              data-splitout="none"
+              data-elementdelay="0.1"
+              data-endelementdelay="0.1"
+              style="z-index: 5;font-size: 30px"
+            >
+              <a href="about_us.html" class="slider_btn slider_btn_res"
+                >关于我们</a
+              >
+            </div>
+            <div
+              class="visible-xs tp-caption  sfr tp-resizeme"
+              data-x="600"
+              data-y="340"
+              data-speed="1000"
+              data-start="2000"
+              data-easing="Power3.easeInOut"
+              data-splitout="none"
+              data-elementdelay="0.1"
+              data-endelementdelay="0.1"
+              style="z-index: 5;font-size: 30px"
+            >
+              <a href="about_us.html" class="slider_btn slider_btn_res"
+                >联系我们</a
+              >
+            </div>
+          </li>
+          <li
+            data-transition="Curtain from Middle"
+            data-slotamount="7"
+            data-delay="5000"
+            data-masterspeed="600"
+            class="bg-light"
+          >
+            <img
+              src="images/new_slider4.png"
+              alt="girlimg"
+              data-bgposition="right bottom"
+              data-duration="11000"
+              data-ease="Linear.easeNone"
+              data-bgfit="cover"
+              data-bgpositionend="left top"
+            />
+            <div
+              class="tp-caption grey_heavy_72 sfb tp-resizeme"
+              data-x="center"
+              data-y="150"
+              data-speed="700"
+              data-start="700"
+              data-easing="Power0.easeInOut"
+              data-splitin="lines"
+              data-splitout="none"
+              data-elementdelay="0.1"
+              data-endelementdelay="0.1"
+              style="z-index: 5; max-width: inherit; max-height: inherit; white-space: nowrap;color: #fff;font-size:55px;font-family: lato"
+            >
+              产品和服务
+            </div>
+            <div
+              class="tp-caption grey_heavy_72 sft tp-resizeme"
+              data-x="center"
+              data-y="250"
+              data-speed="700"
+              data-start="1000"
+              data-easing="Power0.easeInOut"
+              data-splitin="lines"
+              data-splitout="none"
+              data-elementdelay="0.1"
+              data-endelementdelay="0.1"
+              style="z-index: 5; max-width: inherit; max-height: inherit;
+                     white-space: nowrap;color: #fff;font-size:45px;font-family: lato"
+            ></div>
+            <div
+              class="hidden-xs tp-caption  sfl tp-resizeme"
+              data-x="430"
+              data-y="350"
+              data-speed="1000"
+              data-start="2000"
+              data-easing="Power3.easeInOut"
+              data-splitout="none"
+              data-elementdelay="0.1"
+              data-endelementdelay="0.1"
+              style="z-index: 5;"
+            >
+              <a href="products.html" class="slider_btn">我们的产品</a>
+            </div>
+            <div
+              class="hidden-xs tp-caption  sfr tp-resizeme"
+              data-x="600"
+              data-y="350"
+              data-speed="1000"
+              data-start="2000"
+              data-easing="Power3.easeInOut"
+              data-splitout="none"
+              data-elementdelay="0.1"
+              data-endelementdelay="0.1"
+              style="z-index: 5;"
+            >
+              <a href="services.html" class="slider_btn">我们的服务</a>
+            </div>
+            <div
+              class="visible-xs tp-caption  sfl tp-resizeme"
+              data-x="350"
+              data-y="350"
+              data-speed="1000"
+              data-start="2000"
+              data-easing="Power3.easeInOut"
+              data-splitout="none"
+              data-elementdelay="0.1"
+              data-endelementdelay="0.1"
+              style="z-index: 5;font-size: 30px"
+            >
+              <a href="products.html" class="slider_btn slider_btn_res"
+                >我们的产品</a
+              >
+            </div>
+            <div
+              class="visible-xs tp-caption  sfr tp-resizeme"
+              data-x="600"
+              data-y="350"
+              data-speed="1000"
+              data-start="2000"
+              data-easing="Power3.easeInOut"
+              data-splitout="none"
+              data-elementdelay="0.1"
+              data-endelementdelay="0.1"
+              style="z-index: 5;font-size: 30px"
+            >
+              <a href="services.html" class="slider_btn slider_btn_res"
+                >我们的服务</a
+              >
+            </div>
+          </li>
+          <!---->
+          <li
+            data-index="rs-82"
+            data-transition="fade"
+            data-slotamount="7"
+            data-masterspeed="500"
+            data-delay="5000"
+            data-saveperformance="on"
+            data-title="Intro Slide"
+            data-bgfit="cover"
+          >
+            <img
+              src="images/new_slider3.png"
+              alt="girlimg"
+              data-bgposition="right bottom"
+              data-duration="11000"
+              data-ease="Linear.easeNone"
+              data-bgfit="cover"
+              data-bgpositionend="left top"
+            />
+
+            <div
+              class="tp-caption grey_heavy_72 sfl tp-resizeme"
+              data-x="center"
+              data-y="150"
+              data-speed="700"
+              data-start="700"
+              data-easing="Power0.easeInOut"
+              data-splitin="words"
+              data-splitout="none"
+              data-elementdelay="0.1"
+              data-endelementdelay="0.1"
+              style="z-index: 5; max-width: inherit; max-height: inherit; white-space: nowrap;color: #fff;font-size:70px;font-family: lato"
+            >
+              JOIN
+            </div>
+            <div
+              class="tp-caption grey_heavy_72 sfr tp-resizeme"
+              data-x="center"
+              data-y="250"
+              data-speed="700"
+              data-start="1500"
+              data-easing="Power0.easeInOut"
+              data-splitin="words"
+              data-splitout="none"
+              data-elementdelay="0.1"
+              data-endelementdelay="0.1"
+              style="z-index: 5; max-width: inherit; max-height: inherit; white-space: nowrap;color: #fff;font-size:45px;font-family: lato"
+            >
+              US
+            </div>
+            <div
+              class="hidden-xs tp-caption  sfb tp-resizeme"
+              data-x="430"
+              data-y="350"
+              data-speed="1000"
+              data-start="2000"
+              data-easing="Power3.easeInOut"
+              data-splitout="none"
+              data-elementdelay="0.1"
+              data-endelementdelay="0.1"
+              style="z-index: 5;"
+            >
+              <a href="careers.html" class="slider_btn">加入我们</a>
+            </div>
+            <div
+              class="hidden-xs tp-caption  sfb tp-resizeme"
+              data-x="600"
+              data-y="350"
+              data-speed="1500"
+              data-start="2000"
+              data-easing="Power3.easeInOut"
+              data-splitout="none"
+              data-elementdelay="0.1"
+              data-endelementdelay="0.1"
+              style="z-index: 5;"
+            >
+              <a href="about_us.html" class="slider_btn">联系我们</a>
+            </div>
+            <div
+              class="visible-xs tp-caption  sfl tp-resizeme"
+              data-x="350"
+              data-y="350"
+              data-speed="1000"
+              data-start="2000"
+              data-easing="Power3.easeInOut"
+              data-splitout="none"
+              data-elementdelay="0.1"
+              data-endelementdelay="0.1"
+              style="z-index: 5;font-size: 30px"
+            >
+              <a href="careers.html" class="slider_btn slider_btn_res"
+                >加入我们</a
+              >
+            </div>
+            <div
+              class="visible-xs tp-caption  sfr tp-resizeme"
+              data-x="600"
+              data-y="350"
+              data-speed="1000"
+              data-start="2000"
+              data-easing="Power3.easeInOut"
+              data-splitout="none"
+              data-elementdelay="0.1"
+              data-endelementdelay="0.1"
+              style="z-index: 5;font-size: 30px"
+            >
+              <a href="about_us.html" class="slider_btn slider_btn_res"
+                >联系我们</a
+              >
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-------------------Slider end----------------->
+    <!-- 移除登录和注册模块 -->
+    <!----------------Body Section Start--------------->
+    <!-- 公司简介 -->
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-sm-offset-3 text-center m-t-50">
+          <h2 class="text-center heading underline">空指针科技</h2>
+          <p>珠海市空指针科技是一家以软件开发服务为主的技术创新公司。</p>
+        </div>
+      </div>
+      <div class="row m-t-50">
+        <div class="col-sm-5">
+          <img
+            src="images/office.png"
+            class="img-responsive"
+            alt="ofiice_image"
+          />
+          <br />
+        </div>
+        <div class="col-sm-7">
+          <div class="row">
+            <div class="col-xs-12 text-justify">
+              <p>珠海市空指针科技是一家以软件开发服务为主的技术创新公司。</p>
+              <p>自2017年3月成立以来，一直为客户提供优质产品。</p>
+              <p>涉及领域：</p>
+              <p>应用开发和系统定制</p>
+              <p>小程序和小游戏开发</p>
+              <p>物联网产品解决方案</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- 我们的服务 -->
+    <div
+      class="subscribe_section parallax m-t-70 text-white"
+      style="padding-bottom: 50px"
+    >
+      <div class=" container ">
+        <div class="row">
+          <div class="col-sm-6 col-sm-offset-3 m-t-50">
+            <h2 class="heading underline text-white">我们的服务</h2>
+            <p class="text-center">
+              以创意设计为本，专注企业品牌网站开发。
+              我们所具备的不仅仅只是丰富的网站建设经验，更让我们值得骄傲的是我们的创造力和奉献精神！
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4 col-sm-offset-2">
+            <div class="row m-t-50">
+              <div class="col-xs-12">
+                <img
+                  src="images/android.png"
+                  alt="Android"
+                  class="img-responsive services_icon center-block"
+                />
+              </div>
+              <div class="col-xs-12 text-center">
+                <h5 class=" text-white">安卓全栈</h5>
+              </div>
+              <div class="col-xs-12 text-center">
+                <p>
+                  APP开发、框架调优、固件定制。浸渍Android系统开发十年，丰富的互联网以及设备厂商工作经验。
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4 ">
+            <div class="row m-t-50">
+              <div class="col-xs-12">
+                <img
+                  src="images/coding.png"
+                  alt="bigdata"
+                  class="img-responsive services_icon center-block"
+                />
+              </div>
+              <div class="col-xs-12 text-center">
+                <h5 class=" text-white">前端开发</h5>
+              </div>
+              <div class="col-xs-12 text-center">
+                <p>
+                  痴迷于各类前端技术，满载的技能包。 React, Angular, Weex, Vue,
+                  Node, CSS, HTML5 ...
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-4 col-sm-offset-2">
+            <div class="row m-t-50">
+              <div class="col-xs-12">
+                <img
+                  src="images/wechat.png"
+                  alt="bigdata"
+                  class="img-responsive services_icon center-block"
+                />
+              </div>
+              <div class="col-xs-12 text-center">
+                <h5 class=" text-white">微信周边</h5>
+              </div>
+              <div class="col-xs-12 text-center">
+                <p>
+                  微信公众号、小程序、小游戏。
+                  为合作伙伴构建完整的微信生态业务，提供微信运营解决方案。
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="row m-t-50">
+              <div class="col-xs-12">
+                <img
+                  src="images/database.png"
+                  alt="bigdata"
+                  class="img-responsive services_icon center-block"
+                />
+              </div>
+              <div class="col-xs-12 text-center">
+                <h5 class=" text-white">后端开发</h5>
+              </div>
+              <div class="col-xs-12 text-center">
+                <p>
+                  业务梳理、数据分析、性能优化、部署运维。
+                  专业团队筑造优秀品质，为合作伙伴保驾护航。
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6 col-sm-offset-3 m-t-50">
+          <h2 class="heading underline">合作伙伴</h2>
+          <p class="text-center">
+            合作伙伴
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <ul class="list-unstyled">
+            <li class="link_transition">
+              <a href="https://www.meizu.com/" target="_blank"
+                ><i class="fa fa-caret-right"></i
+                ><i class="fa fa-caret-right"></i> &nbsp; 珠海市魅族科技有限公司
+              </a>
+            </li>
+            <li class="link_transition  section-top-10">
+              <a href="https://tech.pingan.com/"
+                ><i class="fa fa-caret-right"></i
+                ><i class="fa fa-caret-right"></i>
+                &nbsp;平安科技(深圳)有限公司</a
+              >
+            </li>
+            <li class="link_transition  section-top-10">
+              <a href="http://www.zhsftech.com/"
+                ><i class="fa fa-caret-right"></i
+                ><i class="fa fa-caret-right"></i>
+                &nbsp;珠海市石方科技有限公司</a
+              >
+            </li>
+            <li class="link_transition  section-top-10">
+              <a href="http://szlks.dzsc.com/"
+                ><i class="fa fa-caret-right"></i
+                ><i class="fa fa-caret-right"></i>
+                &nbsp;深圳市莱克斯科技有限公司</a
+              >
+            </li>
+            <li class="link_transition  section-top-10">
+              <a href="http://www.bcg.com.cn/"
+                ><i class="fa fa-caret-right"></i
+                ><i class="fa fa-caret-right"></i> &nbsp;波士顿咨询有限公司</a
+              >
+            </li>
+            <li class="link_transition  section-top-10">
+              <a href="https://www.yizhisec.com"
+                ><i class="fa fa-caret-right"></i
+                ><i class="fa fa-caret-right"></i> &nbsp;一知安全科技有限公司</a
+              >
+            </li>
+            <li class="link_transition  section-top-10">
+              <a href="https://www.idreamsky.com/"
+                ><i class="fa fa-caret-right"></i
+                ><i class="fa fa-caret-right"></i>
+                &nbsp;深圳市创梦天地有限公司</a
+              >
+            </li>
+            <li class="link_transition  section-top-10">
+              <a href="https://www.archermind.com"
+                ><i class="fa fa-caret-right"></i
+                ><i class="fa fa-caret-right"></i>
+                &nbsp;诚迈科技（南京）股份有限公司</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-------------about end----------->
+    <!----------Countup-section end------>
+    <!-------------Services Section End------------>
+
+    <!---------------What wecan do Section End--------->
+    <!-------------------Subscribe Section----------->
+    <!-----------------Subscribe section End-------->
+
+    <!-------------Meet Our Team End--------->
+    <!-----------------------Body Section End---------------->
+    <!-------------Footer Start-------------------->
+
+    <!------------Footer Caret Shape------------>
+    <div class="shape section-top-50"></div>
+    <!------------Footer Caret Shape end------------>
+
+    <!-------------------Footer section End------------------>
+    <!------------------Copy rights------------------->
+    <section class="copy-rights" style="background-color: #000010">
+      <div class="container ">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 section-top-15">
+            <p class="footer_text_color">
+              <a href="index.html">首页</a> &nbsp;
+              <a href="services.html">服务</a> &nbsp;
+              <a href="products.html">产品</a> &nbsp;
+              <a href="about_us.html">关于我们</a> &nbsp;
+              <a href="careers.html">人才招聘</a>
+            </p>
+          </div>
+          <div class="col-xs-12 col-sm-6 text-right section-top-15">
+            <p class="footer_text_color  ">
+              Copyright ©2019 All rights reserved. NullPointer CO., LTD
+              <a
+                target="_blank"
+                href="https://www.nullpointer.ltd/images/bussiness.jpg"
+                >营业执照</a
+              >
+              |
+              <a target="_blank" href="http://www.miitbeian.gov.cn"
+                >粤ICP备18078168号</a
+              >
+              |
+              <a
+                target="_blank"
+                href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44049202000231"
+                ><img src="images/beian.png" />粤公网安备 44049202000231号</a
+              >
+            </p>
+          </div>
+        </div>
+        <a href="#" id="return-to-top"
+          ><img src="images/backto.png" alt="image-missing"
+        /></a>
+      </div>
+    </section>
+    <!------------------Copy rights End------------------>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="vendors/revolution-slider/js/jquery.themepunch.revolution.min.js"></script>
+    <script src="vendors/revolution-slider/js/jquery.themepunch.tools.min.js"></script>
+    <script src="vendors/iCheck/js/icheck.js"></script>
+    <script src="vendors/countup/js/countUp.min.js"></script>
+    <script src="vendors/sweetalert2/js/sweetalert2.min.js"></script>
+    <script src="vendors/jribbble/js/jribbble.min.js"></script>
+    <!----------------------page Level Js-------------------------->
+    <script src="js/custom.js"></script>
+  </body>
+</html>
