@@ -46,6 +46,7 @@ $(window).on('load', function () {
     $(".active1").click();
 });
 $(document).ready(function () {
+    $('img.lazy').lazyload();
 
     /*-------------Header--------------*/
     $('ul.dropdown-menu [data-toggle=dropdown]').on('click', function (event) {

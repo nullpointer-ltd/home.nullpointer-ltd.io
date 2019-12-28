@@ -14,18 +14,16 @@
 	href="images/favicon-32x32.png"
 	/>
 	<!----------------Global css------------------->
-	<link rel="stylesheet" href="css/bootstrap.css" />
-	<link rel="stylesheet" href="css/font-awesome.min.css" />
-	<link rel="stylesheet" href="vendors/revolution-slider/css/layers.css" />
-	<link
-	rel="stylesheet"
-	href="vendors/revolution-slider/css/navigation.css"
-	/>
+	<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="https://cdn.bootcss.com/imagehover.css/2.0.0/css/imagehover.min.css" />
+	<link rel="stylesheet" href="https://cdn.bootcss.com/animate.css/3.7.2/animate.min.css" />
+	<link rel="stylesheet" href="https://cdn.bootcss.com/iCheck/1.0.2/skins/minimal/_all.css" />
+	<link rel="stylesheet" href="https://cdn.bootcss.com/limonte-sweetalert2/8.11.8/sweetalert2.min.css" />
+
 	<link rel="stylesheet" href="vendors/revolution-slider/css/settings.css" />
-	<link rel="stylesheet" href="vendors/imagehover/css/imagehover.min.css" />
-	<link rel="stylesheet" href="vendors/animate/animate.min.css" />
-	<link rel="stylesheet" href="vendors/iCheck/css/all.css" />
-	<link rel="stylesheet" href="vendors/sweetalert2/css/sweetalert2.min.css" />
+	<link rel="stylesheet" href="vendors/revolution-slider/css/layers.css" />
+	<link rel="stylesheet" href="vendors/revolution-slider/css/navigation.css" />
 	<!----------------custo css----------------->
 	<link rel="stylesheet" href="css/custom.css" />
 </head>
@@ -52,7 +50,6 @@
 	background-position: center;
 	margin:-25px 0 0 -25px;"
 	>
-	<img src="images/loader.gif" alt="loading..." />
 </div>
 </div>
 <!----------------Preloader end----------------->
@@ -454,8 +451,9 @@ style="z-index: 5; max-width: inherit; max-height: inherit; white-space: nowrap;
 	<div class="row m-t-50">
 		<div class="col-sm-5">
 			<img
-			src="images/office.png"
-			class="img-responsive"
+			src="images/loading.gif"
+			class="lazy img-responsive"
+			data-original="images/office.png"
 			alt="ofiice_image"
 			/>
 			<br />
@@ -466,9 +464,11 @@ style="z-index: 5; max-width: inherit; max-height: inherit; white-space: nowrap;
 					<p>珠海市空指针科技是一家以软件开发服务为主的技术创新公司。</p>
 					<p>自2017年3月成立以来，一直为客户提供优质产品。</p>
 					<p>涉及领域：</p>
-					<p>应用开发和系统定制</p>
-					<p>小程序和小游戏开发</p>
-					<p>物联网产品解决方案</p>
+					<ul>
+						<li>应用开发和系统定制</li>
+						<li>小程序和小游戏开发</li>
+						<li>物联网产品解决方案</li>
+					</ul>
 				</div>
 			</div>
 		</div>
@@ -576,16 +576,13 @@ style="padding-bottom: 50px"
 </div>
 <div class="container">
 	<div class="row">
-		<div class="col-sm-6 col-sm-offset-3 m-t-50">
+		<div class="col-sm-6 col-sm-offset-3">
 			<h2 class="heading underline">合作伙伴</h2>
-			<p class="text-center">
-				合作伙伴
-			</p>
 		</div>
 	</div>
 
 	<div class="row">
-		<div class="col-sm-12 text-center">
+		<div class="col-sm-12" style="padding-inline-start: 40%;">
 			<ul class="list-unstyled">
 				<li class="link_transition">
 					<a href="https://www.meizu.com/" target="_blank"
@@ -702,13 +699,15 @@ style="padding-bottom: 50px"
 							</section>
 							<!------------------Copy rights End------------------>
 
-							<script src="js/jquery.min.js"></script>
-							<script src="js/bootstrap.min.js"></script>
+							<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.min.js"></script>
+							<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+							<script src="https://cdn.bootcss.com/iCheck/1.0.2/icheck.min.js"></script>
+							<script src="https://cdn.bootcss.com/countup.js/2.0.4/countUp.min.js"></script>
+							<script src="https://cdn.bootcss.com/limonte-sweetalert2/8.11.8/sweetalert2.min.js"></script>
+							<script src="https://cdn.bootcss.com/jquery_lazyload/1.9.7/jquery.lazyload.min.js"></script>
+
 							<script src="vendors/revolution-slider/js/jquery.themepunch.revolution.min.js"></script>
 							<script src="vendors/revolution-slider/js/jquery.themepunch.tools.min.js"></script>
-							<script src="vendors/iCheck/js/icheck.js"></script>
-							<script src="vendors/countup/js/countUp.min.js"></script>
-							<script src="vendors/sweetalert2/js/sweetalert2.min.js"></script>
 							<script src="vendors/jribbble/js/jribbble.min.js"></script>
 							<!----------------------page Level Js-------------------------->
 							<script src="js/custom.js"></script>
