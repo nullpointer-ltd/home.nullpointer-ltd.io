@@ -107,8 +107,8 @@
     $(function () {
       $('#fullpage').fullpage({
         navigation: true,
-        scrollingSpeed: 400,
-        anchors: ['page1', 'page2'],
+        scrollingSpeed: 200,
+        anchors: ['page0', 'page1', 'page2', 'page3', 'page4'],
         menu: '#menu',
         afterLoad: function (anchorLink, index) {
           $(".title").addClass('animated fadeInUp ')
@@ -140,11 +140,118 @@
 
 <body>
   <ul id="menu">
-    <li data-menuanchor="page1" class="active"><a href="#page1">人脸方案</a></li>
-    <li data-menuanchor="page2"><a href="#page2">智能语音鼠标方案</a></li>
-    <li data-menuanchor="page3"><a href="./index.html">返回主页</a></li>
+    <li data-menuanchor="page0" class="active"><a href="#page0">AI体温产品一</a></li>
+    <li data-menuanchor="page1"><a href="#page1">AI体温产品二</a></li>
+    <li data-menuanchor="page2"><a href="#page2">AI体温产品三</a></li>
+    <li data-menuanchor="page3"><a href="#page3">人脸方案</a></li>
+    <li data-menuanchor="page4"><a href="#page4">智能语音鼠标方案</a></li>
+    <li><a href="./index.html">返回主页</a></li>
   </ul>
   <div id="fullpage">
+    <div class="section">
+      <div class="container">
+        <!-- 文字 -->
+        <div class="col-xs-12 col-sm-6 d-flex jc-center ai-center flow-col">
+          <h3 class="text-white mb-10 title">HG-9268-T 热成像无感快速人体测温筛查热像仪</h3>
+          <p class="text" style="text-align: left;">
+            一、部署便捷
+            人体测温热成像摄像机（自带黑体）+普通PC即构成小型测温站，外置黑体由于黑体面积大，校准会更精准
+            二、体温测量精度高
+            人脸检测测温，精度正负0.1℃（加黑体）
+            三、安全高效
+            利用红外非接触式体温检测，降低交叉感染风险，可实现7×24实时快速体温筛查
+            四、低人力成本
+            自动筛查预警机制，检测时间小于1秒、可同时对多人检测，节省大量人力、物力
+            五、环境适应性强
+            可适用于出入口、门店等小场景以及三站一人员密集的大场景
+            六、可回溯
+            结合平台，可实现对历史数据的回溯、数据分析等
+          </p>
+        </div>
+        <!-- 图片 -->
+        <div class="col-xs-12 col-sm-6   d-flex jc-center ai-center">
+          <img class="img-size img" src="./images/video_temp.jpg" alt="">
+        </div>
+      </div>
+
+    </div>
+
+    <div class="section">
+      <div class="container">
+        <!-- 文字 -->
+        <div class="col-xs-12 col-sm-6 d-flex jc-center ai-center flow-col">
+          <h3 class="text-white mb-10 title">HA-9201R-8T人脸识别+体温检测8寸智能面板机</h3>
+          <p class="text" style="text-align: left;font-size: small;">
+          产品特性：
+          内置非接触式高精度热像模块＋活体检测于一体
+          温度检测范围35℃~42℃,精度±0.3℃
+          支持人体温度叠加、图片叠加
+          支持体温检测
+          支持口罩检测，检测人员是否携带口罩
+          内置旷视FACE++深度学习人脸识别算法，稳定可靠
+          支持5万张人脸库、100毫秒快速识别
+          7寸高清LCD显示屏
+          体温异常后本地输出语音报警
+          人脸识别、体温检测、口罩识别，可自由配置
+          多种使用模式
+          业界超薄全金属外壳
+          可记录识别信息和体温信息，保存可追溯
+          优秀环境适应性，适应低照和强逆光，支持人脸自动曝光
+          支持韦根协议，可直接驱动门禁，并控制各种 闸机
+          硬件接口丰富，集成百兆以太网口、音频接口、韦根接口、继电器接口、TF卡、USB 等接口
+          采用1/2.8”200万像素逐行扫描图像传感器，低照度优秀
+          最大输出分辨为1920x1080@30fps,画质细腻
+          支持2D、3D数字降噪功能，画面干净，噪声
+          支持H 265+/H.265/H.264/MJPEG 视频压
+          缩算法，支持多级别视频质量配置、编码复杂度设置
+          低功耗，主板功耗低至5瓦
+          Linux软件架构稳定可靠，易扩展
+          支持设备端应用软件的二次开发、支持各种软硬件个性化定制</p>
+        </div>
+        <!-- 图片 -->
+        <div class="col-xs-12 col-sm-6   d-flex jc-center ai-center">
+          <img class="img-size img" src="./images/HA-8T.jpg" alt="">
+        </div>
+      </div>
+
+    </div>
+
+    <div class="section">
+      <div class="container">
+        <!-- 文字 -->
+        <div class="col-xs-12 col-sm-6 d-flex jc-center ai-center flow-col">
+          <h3 class="text-white mb-10 title">HG-9266-T 200万热成像测温双目枪型摄像机</h3>
+          <p class="text" style="text-align: left;font-size: small;">
+            产品特性：
+            一、热成像模块：
+            热成像探测器像素256X192
+            像元尺寸12μm
+            热灵敏度(NETD)：≤60mK（@25℃，F#=1.0）
+            测温范围：-15℃~150℃（高增益模式），0℃~550℃（低增益模式）
+            视场内全屏测温，自动跟踪人脸测温，温度数据OSD 叠加画面显示；
+            支持非接触式温度测量；
+            支持白热，黑热，聚变，彩虹，金秋，午日，铁红，琥珀等多种伪彩可调；
+            二、可见光模块：
+            1/2.8” 2.0M CMOS图像传感器；
+            0.005Lux@F1.2彩色，0.001Lux@F1.2黑白；
+            最大分辨率可达到1920x1080@30fps；
+            三、通用功能：
+            内嵌深度学习算法，支持人脸抓拍功能，可同时对20-30张人脸进行检测及抓拍；
+            支持人脸跟踪及评分，多帧识别，自动筛选输出最优人脸，并减少重复抓拍；
+            支持H.265+ /H.265 / H.264 +MJPEG双编码，三码流
+            支持ONVIF、GB/T28181 等网络协议，组网更轻松；
+            单IP方案，丰富的网络扩展能力，易于接入各种视频监控平台
+            系统开放，可提供Linux、Windows SDK开发包以及CGI协议，可快速二次开发。
+
+          </p>
+        </div>
+        <!-- 图片 -->
+        <div class="col-xs-12 col-sm-6   d-flex jc-center ai-center">
+          <img class="img-size img" src="./images/video_temp2.jpg" alt="">
+        </div>
+      </div>
+    </div>
+
     <div class="section">
       <div class="container">
         <!-- 文字 -->
